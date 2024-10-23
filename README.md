@@ -1,27 +1,30 @@
 # phonescrapy
 
 ```
-
  ,--.  _   _   __  _ .--.   .--.  .---.  .---.
 `'_\ :[ \ [ \ [  ][ '/'`\ \( (`\]/ /__\/ /'`\]
 // | |,\ \/\ \/ /  | \__/ | `'.'.| \__.,| \__.
 '-;__/ \__/\__/   | ;.__/ [\__) )'.__.''.___.'
                   [__|
+            ,---.,---.,---.,---.,---.,   .
+            `---.|    |    ,---||   ||   |
+            `---'`---'`    `---^|---'`---|
+                                |    `---'
 
 usage: phonescrapy.py [-h] [-d DEPTH] [-v] [-o OUTPUT] domain
 
-Phone Number Scraper Tool
+phone number scraping tool
 
 positional arguments:
-  domain                The domain to scrape for phone numbers (e.g., tesla.com).
+  domain                the domain to scrape for phone numbers (e.g., example.com).
 
 options:
   -h, --help            show this help message and exit
   -d DEPTH, --depth DEPTH
-                        Maximum depth for crawling subpages (default: 2).
-  -v, --verbose         Enable verbose mode.
+                        maximum depth for crawling subpages (default: 2).
+  -v, --verbose         enable verbose mode.
   -o OUTPUT, --output OUTPUT
-                        Output file to save phone numbers (default: phonebook.txt).
+                        output file to save phone numbers (default: phonebook.txt).
 ```
 
 # usage
