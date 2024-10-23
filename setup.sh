@@ -3,20 +3,20 @@
 VENV_DIR="scrapy-env"
 
 if [ ! -d "$VENV_DIR" ]; then
-  echo "Creating virtual environment..."
+  echo "creating virtual environment..."
   python3 -m venv $VENV_DIR
 else
-  echo "Virtual environment already exists."
+  echo "virtual environment already exists."
 fi
 
 echo "Activating virtual environment..."
 source "$VENV_DIR/bin/activate"
 
 if [ -f "requirements.txt" ]; then
-  echo "Installing dependencies from requirements.txt..."
+  echo "installing dependencies from requirements.txt..."
   pip install -r requirements.txt
 else
   echo "requirements.txt not found!"
 fi
 
-echo "Setup complete. To activate the environment later, run: source $VENV_DIR/bin/activate"
+echo "setup complete. to activate the environment later, run: source $VENV_DIR/bin/activate"
