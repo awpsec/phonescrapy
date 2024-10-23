@@ -1,0 +1,4 @@
+beautifulsoup4==4.10.0
+requests==2.31.0
+pyfiglet==1.0.2
+colorama==0.4.6
