@@ -31,6 +31,8 @@ options:
 
 python3 phonescrapy.py www.example.com -d 2 -v -o example_phones.txt
 
+phonescrapy will take a client's tld and click links (depth decides how far it goes with this), identifying any and all phone numbers listed in different destinations on the site.
+
 # installation
 
 ```chmod +x setup.sh```
