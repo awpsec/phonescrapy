@@ -8,7 +8,7 @@ import sys
 import argparse
 from colorama import Fore, Style
 
-banner = """
+banner = r"""
  ,--.  _   _   __  _ .--.   .--.  .---.  .---.
 `'_\ :[ \ [ \ [  ][ '/'`\ \( (`\]/ /__\\/ /'`\\]
 // | |,\ \/\ \/ /  | \__/ | `'.'.| \__.,| \__.
